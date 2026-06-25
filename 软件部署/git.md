@@ -72,20 +72,10 @@ git config --global user.email "1827334436@qq.com"
 
 推送成功后，刷新你的 GitHub 仓库页面，就能看到刚才提交的代码了。
 
-# 1. 添加所有文件到暂存区
-git add .
-
-# 2. 提交代码（本地提交）
-git commit -m "Initial commit: Next.js + FastAPI + LangChain project"
-
-# 3. 关联远程仓库（根据你的仓库名）
-git remote add origin git@github.com:L-climb/next.js-fastapi-langchanin.git
-
-# 4. 推送到远程仓库
-git push -u origin master
 
 
-# 当前提交命令
+
+# 首次提交命令
 # 1. 确保初始化了 Git（以防万一）
 git init
 
@@ -103,3 +93,12 @@ git branch -M main
 
 # 6. 推送到 GitHub
 git push -u origin main
+
+
+# 后续提交
+
+# git add.
+
+# git commit - m "提交注释"
+
+# git push
