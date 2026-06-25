@@ -73,7 +73,6 @@ git config --global user.email "1827334436@qq.com"
 推送成功后，刷新你的 GitHub 仓库页面，就能看到刚才提交的代码了。
 
 # 1. 添加所有文件到暂存区
-git init 
 git add .
 
 # 2. 提交代码（本地提交）
@@ -84,3 +83,23 @@ git remote add origin git@github.com:L-climb/next.js-fastapi-langchanin.git
 
 # 4. 推送到远程仓库
 git push -u origin master
+
+
+# 当前提交命令
+# 1. 确保初始化了 Git（以防万一）
+git init
+
+# 2. 正确添加 SSH 远程仓库地址
+git remote add origin git@github.com:L-climb/study.git
+
+# 3. 把当前文件夹下的所有代码文件添加到暂存区
+git add .
+
+# 4. 把它们提交到本地仓库
+git commit -m "first commit"
+
+# 5. 确保本地分支名字叫 main
+git branch -M main
+
+# 6. 推送到 GitHub
+git push -u origin main
